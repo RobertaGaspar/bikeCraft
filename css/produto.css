@@ -1,0 +1,74 @@
+.interna-produtos {
+  background: url("../img/bg-produto.jpg") no-repeat center;
+  background-size: cover;
+}
+.produto-item {
+  padding-top: 60px;
+}
+.produto-item h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  color: #f6f8f9;
+  margin-bottom: -56px;
+}
+.produto-item h2::before,
+.produto-item h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f6f8f9;
+  margin: 6px auto 8px auto;
+}
+.interna-produto-icone {
+  background: #262729;
+  padding: 70px 0;
+}
+.interna-produto-icone img {
+  margin: 0 auto;
+}
+.produto-info {
+  background: #262729;
+}
+.produto-info p {
+  color: #f6f8f9;
+  font-size: 14px;
+  line-height: 20px;
+  height: 100px;
+  padding: 20px 40px;
+}
+.produto-info ul li {
+  background: #eeab3a;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  float: left;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  padding-top: 16px;
+}
+.produto-info ul li:nth-child(1),
+.produto-info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+.produto-info ul li:nth-child(even) {
+  margin-left: 2px;
+}
+.quebra-produtos {
+  height: 220px;
+  width: 100%;
+  background: url("../img/bg-footer-produto.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+.quebra-produtos .quote-externo {
+  max-width: 400px;
+}
